@@ -1,0 +1,30 @@
+{
+  "name": "libraries-to-try",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel -p 1144",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchesanri/libraries-to-try.git"
+  },
+  "keywords": [],
+  "author": "AnriSanches <sanchesanri@gamil.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchesanri/libraries-to-try/issues"
+  },
+  "homepage": "https://github.com/sanchesanri/libraries-to-try#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "@jaames/iro": "^5.5.2",
+    "nanoid": "^5.0.2"
+  }
+}
